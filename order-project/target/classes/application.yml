@@ -1,0 +1,35 @@
+server:
+  port: 5010
+  servlet:
+    context-path: /order
+
+spring:
+  application:
+    name: service-order
+  main:
+    allow-bean-definition-overriding: true
+
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.8.119:3306/test?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: dev
+      password: dev@2020.
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  typeAliasesPackage: com.dc.order.biz.entity, com.dc.api
+  global-config:
+    db-config:
+      id-type: ID_WORKER
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka

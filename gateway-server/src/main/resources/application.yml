@@ -1,0 +1,22 @@
+server:
+  port: 3010
+
+spring:
+  application:
+    name:
+      gateway-server
+
+zuul:
+  routes:
+    service-order:
+      path: /order/**
+      serviceId: service-order
+      stripPrefix: false
+      sensitiveHeaders:
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka

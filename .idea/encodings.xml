@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-druid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-pds" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-redisson" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/starter-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-project" charset="UTF-8" />
+  </component>
+</project>

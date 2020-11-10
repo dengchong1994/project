@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-project/member-project.iml" filepath="$PROJECT_DIR$/member-project/member-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-project/order-project.iml" filepath="$PROJECT_DIR$/order-project/order-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.iml" filepath="$PROJECT_DIR$/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter.iml" filepath="$PROJECT_DIR$/starter/starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-druid/starter-druid.iml" filepath="$PROJECT_DIR$/starter/starter-druid/starter-druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-feign/starter-feign.iml" filepath="$PROJECT_DIR$/starter/starter-feign/starter-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-mybatis-plus/starter-mybatis-plus.iml" filepath="$PROJECT_DIR$/starter/starter-mybatis-plus/starter-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-pds/starter-pds.iml" filepath="$PROJECT_DIR$/starter/starter-pds/starter-pds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-rabbitmq/starter-rabbitmq.iml" filepath="$PROJECT_DIR$/starter/starter-rabbitmq/starter-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-redisson/starter-redisson.iml" filepath="$PROJECT_DIR$/starter/starter-redisson/starter-redisson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter/starter-swagger/starter-swagger.iml" filepath="$PROJECT_DIR$/starter/starter-swagger/starter-swagger.iml" />
+    </modules>
+  </component>
+</project>
