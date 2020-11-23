@@ -12,7 +12,7 @@ import java.util.List;
 
 @Slf4j
 @Service
-public class OrderServiceImpl extends GenericServiceImpl<OrderMapper> implements OrderService {
+public class OrderServiceImpl extends GenericServiceImpl<OrderMapper, Order> implements OrderService {
 
     @Autowired
     private OrderMapper orderMapper;

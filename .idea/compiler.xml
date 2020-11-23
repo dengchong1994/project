@@ -11,6 +11,7 @@
         <module name="framework" />
         <module name="gateway-server" />
         <module name="member-project" />
+        <module name="oauth-project" />
         <module name="order-project" />
         <module name="starter-druid" />
         <module name="starter-feign" />
@@ -27,6 +28,7 @@
       <module name="framework" target="1.8" />
       <module name="gateway-server" target="1.8" />
       <module name="member-project" target="1.8" />
+      <module name="oauth-project" target="1.8" />
       <module name="order-project" target="1.8" />
       <module name="project" target="1.8" />
       <module name="starter" target="1.8" />
@@ -48,6 +50,7 @@
       <module name="framework" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="member-project" options="-parameters" />
+      <module name="oauth-project" options="-parameters" />
       <module name="order-project" options="-parameters" />
       <module name="starter" options="-parameters" />
       <module name="starter-db" options="-parameters" />
