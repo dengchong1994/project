@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * 统一异常处理类
+ */
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
