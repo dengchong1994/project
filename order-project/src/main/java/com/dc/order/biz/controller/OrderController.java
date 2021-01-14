@@ -31,13 +31,13 @@ public class OrderController extends GenericController {
     private MemberClient memberClient;
 
     @PostMapping("/queryList")
-    public Result<List<Order>> queryList() {
-        List<Order> orderList = orderService.queryList();
-        MemberDto memberDto = memberClient.queryUserById(new MemberCnd());
-        if (1 == 1) {
-            throw new BizException(OrderErrorCodeEnum.FAIL);
-        }
-        return success(orderList);
+    public Result<String> queryList() {
+//        List<Order> orderList = orderService.queryList();
+//        MemberDto memberDto = memberClient.queryUserById(new MemberCnd());
+//        if (1 == 1) {
+//            throw new BizException(OrderErrorCodeEnum.FAIL);
+//        }
+        return success("ok");
     }
 
 }
